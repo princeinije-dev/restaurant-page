@@ -1,0 +1,133 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f8f5f0;
+  color: #292929;
+}
+
+header {
+  background-color: #3b2418;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  background-color: #d97706;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b45309;
+}
+
+#content {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.hero {
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  color: #3b2418;
+}
+
+.hero p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+#explore-menu {
+  background-color: #3b2418;
+}
+
+#explore-menu:hover {
+  background-color: #5a3826;
+}
+
+@media (max-width: 600px) {
+  nav {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  button {
+    padding: 10px 16px;
+    font-size: 14px;
+  }
+
+  #content {
+    margin: 20px 12px;
+    padding: 20px 12px;
+  }
+
+  .hero {
+    padding: 35px 10px;
+  }
+
+  .hero h1 {
+    font-size: 30px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+}
+
+.meal-card {
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.meal-card h2 {
+  color: #3b2418;
+  margin-top: 0;
+}
+
+.meal-card p {
+  line-height: 1.6;
+}
+
+.meal-card strong {
+  color: #b45309;
+  font-size: 18px;
+}
+
+.contact-card {
+  margin-top: 25px;
+  padding: 25px;
+  background-color: #f8f5f0;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.contact-card h2 {
+  color: #3b2418;
+  margin-bottom: 8px;
+}
+
+.contact-card p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
